@@ -19,11 +19,3 @@ dest[d]='\0';
 return(dest);
 
 }
-int main(){
-    char ori[]="programacion";
-    char des[]="en c";
-    unsigned  n=10;
-    ft_strncpy(des,ori,n);
-    printf("%s",des);
-    return(0);
-}

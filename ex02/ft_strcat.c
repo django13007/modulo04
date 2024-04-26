@@ -17,13 +17,4 @@ char *ft_strcat(char *dest, char *src)
     return(dest); 
 }
 
-int main()
-{
-   
-    char des[]="hola";
-    char ori[]="progrmacion en c";
-    ft_strcat(des,ori);
-    printf("%s",des);
-    return(0);
 
-}
