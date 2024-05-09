@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 char *ft_strcat(char *dest, char *src)
 {
     int c=0;
@@ -16,5 +16,4 @@ char *ft_strcat(char *dest, char *src)
     dest[c] = '\0';
     return(dest); 
 }
-
 
